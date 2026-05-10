@@ -1,17 +1,28 @@
-# Quartz v4
+# Soeun's Wiki
 
-> “[One] who works with the door open gets all kinds of interruptions, but [they] also occasionally gets clues as to what the world is and what might be important.” — Richard Hamming
+Personal research wiki maintained by Soeun Park.
 
-Quartz is a set of tools that helps you publish your [digital garden](https://jzhao.xyz/posts/networked-thought) and notes as a website for free.
+Built with [Quartz v4](https://quartz.jzhao.xyz/) and published at **[neurosoeunpark.github.io/wiki](https://neurosoeunpark.github.io/wiki)**.
 
-🔗 Read the documentation and get started: https://quartz.jzhao.xyz/
+---
 
-[Join the Discord Community](https://discord.gg/cRFFHYye7t)
+## About
 
-## Sponsors
+An LLM-assisted wiki for accumulating knowledge from scientific papers — primarily single-cell genomics, neuroscience, and related fields.
 
-<p align="center">
-  <a href="https://github.com/sponsors/jackyzha0">
-    <img src="https://cdn.jsdelivr.net/gh/jackyzha0/jackyzha0/sponsorkit/sponsors.svg" />
-  </a>
-</p>
+Based on [Andrej Karpathy's LLM Wiki pattern](https://gist.github.com/karpathy/442a6bf555914893e9891c11519de94f): instead of re-querying source material each time, knowledge is built up incrementally into structured wiki pages.
+
+## Structure
+
+```
+content/
+├── index.md              # Page catalog
+├── pages/
+│   ├── concepts/         # Hub pages for concepts and methods
+│   ├── sources/          # Per-paper summary pages
+│   └── entities/         # People, tools, datasets
+```
+
+## Contact
+
+Soeun Park — neuro.soeun.park@gmail.com
