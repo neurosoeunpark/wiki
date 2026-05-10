@@ -37,6 +37,3 @@ wiki/           # 169 wiki pages across 26 categories
 papers/         # Original PDFs
 ```
 
-## Contact
-
-Soeun Park — neuro.soeun.park@gmail.com
